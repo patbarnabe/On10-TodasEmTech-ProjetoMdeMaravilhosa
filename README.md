@@ -12,7 +12,7 @@
 
 ## 📚 Projeto
 Escolher uma personalidade Maravilhosa e inspiradora para criar uma página de perfil em sua homenagem.
-:books
+
 ## 🎯 Requisitos Obrigatórios
 1. A página deve ser responsiva;
 2. Seguir o layout conforme protótipo do Figma;
