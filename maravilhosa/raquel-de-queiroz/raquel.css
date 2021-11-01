@@ -1,0 +1,565 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.img-responsive {
+  width: 100%;
+}
+
+/* define o tamanho da caixa */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+/* --- Mobile First--- */
+
+/* NAV  --- NAV  --- NAV */
+
+.navegacao {
+  background-color: #674582;
+  box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+  padding: 24px;
+  z-index: 99; 
+  position: fixed;
+  width: 100%;
+}
+
+.navegacao__logo {
+  max-width: 200px;
+}
+
+.navegacao__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+/* define o tamanho da caixa */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+.navegacao__itens {
+  display: none;
+}
+
+.navegacao__menu-hamburguer img {
+  border-radius: 2px;
+  color: white;
+}
+
+/* --- BOTAO --- */
+
+.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px ;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.btn_roxo {
+  color: white;
+  background-color: #C083B9;
+  display: block;
+  max-width: 200px;
+  text-align: center;
+  transition: all .5s;
+  margin: 0 auto;
+}
+
+.btn_roxo:hover,
+.btn_roxo:focus {
+  transform: translateY(-06px);
+  box-shadow: 0 10px 10px rgba(0,0,0,.2);
+  background-color: rgb(192, 156, 188);
+}
+
+/*.btn_center {
+  margin: 0 auto;
+}*/
+
+.principal__btn {
+  margin-bottom: 50px;
+}
+
+/* HEADER  --- HEADER  --- HEADER */
+
+.header {
+  min-height: 40px; 
+  height: 500px;
+  background: linear-gradient(rgba(255, 0, 255, 0.2),
+                              rgba(255, 0, 255, 0.2)),
+            url(./img/bg-raquel.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items:center;
+  text-align: center;
+  color: white;
+}
+
+.principal {
+  margin-bottom: 20px;
+}
+
+.principal__titulo {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.principal__sub {
+  font-weight: 300;
+  margin: 10px 0 16px 0;
+  font-size: 18px;
+  
+}
+
+
+/* --- SECTION RAQUEL --- */
+
+h1, h2, h3{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.raquel{
+  color: #63458a;
+  font-size: 16px;
+  margin: 0 auto;
+  /*width: 100%;
+  max-width: 960px;*/
+  padding: 50px;
+  
+}
+
+
+.foto_perfil {
+  width: 100%;
+  border-radius: 10px;
+  
+}
+
+.texto_perfil{
+  font-size: 16px;
+  text-align:justify;
+  margin-top: 20px;
+}
+
+.frase{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  padding: 20px;
+  border: #63458a solid;
+  margin: 50px auto;
+  
+}
+
+.historia_raquel{
+  line-height: 20px;
+  text-align: justify;
+}
+
+.historia_raquel > img{
+  width: 300px;
+  margin: 50px auto;
+}
+
+.sobre_autora{
+  margin: 50px 0px 50px 0px;
+  background-color: #d676da;
+  color: white;
+  text-align:center;
+
+}
+
+
+.foto_autora{
+  width: 50%;
+  border-radius: 30px;
+  padding: 0px 30px 0px 30px;
+  
+}
+
+.texto_autora{
+  margin-top: 20px;
+ 
+}
+
+  
+
+/* --- FOOTER --- */
+
+.rodape {
+  background-color: #323534;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rodape__principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.rodape__principal > * {
+  margin: 16px 0;
+}
+
+.rodape__navegacao > li {
+  font-size: 14px;
+  margin: 8px;
+}
+
+.rodape__navegacao a {
+  transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+  color: #C083B9;
+}
+
+.rodape__logo {
+  max-width: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape__cc {
+  width: 100%;
+  background-color: #292A2A;
+  font-size: 14px;
+  opacity: 0.5;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+
+/*  --- TABLET --- --- TABLET --- */
+
+@media (min-width: 768px) {
+  /* --- NAV --- */
+  .navegacao__itens {
+    position: static;
+    display: flex;
+    padding: 0;
+    width: auto;
+  }
+
+  .navegacao__nav { 
+    color: #fff;
+    margin-bottom: 0;
+  }
+    
+  .navegacao__itens ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+    
+    .navegacao__itens li {
+    font-size: 14px;
+    margin: 0 9px;
+  }
+
+  .navegacao__itens.ativo {
+    display: block;
+    right: 0;
+    top: 85px;
+    width: 100%;
+    background-color: #674582;
+    text-align: center;
+    padding: 48px 0;
+    transition: right 1s;
+  }
+
+  .navegacao__itens li > a {
+    transition: all .2s;
+  }
+
+  .navegacao__itens li > a:hover {
+    color: #C083B9;
+  }
+    
+  .navegacao__menu-hamburguer {
+    display: none;
+  }
+
+  /* --- HEADER --- */
+   .header {
+      min-height: 75vh;
+      text-align: center;
+      padding: 10px 100px;
+    }
+
+    .principal__titulo {
+        font-size: 65px;
+    }
+    
+    .principal__sub {
+        font-size: 18px;
+    }
+
+    .principal__btn {
+        margin-bottom: 50px;
+    }
+
+  /* --- SECTION MARAVILHOSA --- */
+
+  .sobre_raquel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .perfil_foto{
+    width: 50%;
+
+
+  }
+
+  .texto_perfil{
+    font-size: 16px;
+    text-align: justify;
+    margin: 50px;
+    width: 50%;
+  }
+
+  .frase{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    border: #63458a52 solid;
+    margin: 50px auto;
+    
+  }
+
+  .historia_raquel > img {
+    width: 100%;
+    margin: 50px auto;
+  }
+
+
+  .sobre_autora{
+    margin:0px 0px 50px 0px;
+    background-color: #d676da;
+    width: 100%;
+
+  }
+
+  .perfil_autora{
+    display: flex;
+    justify-content:center;
+
+  }
+
+  .img_autora{
+    width: 50%;
+
+  }
+  
+  .foto_autora{
+    width: 50%;
+    padding: 10px
+  }
+
+  .texto_autora{
+    font-size: 16px;
+    text-align: justify;
+    /*width: 50%;*/
+    /*padding:0px 20px;*/
+  
+  
+  }
+  
+  .texto_autora > a{
+    cursor: pointer;
+  }
+
+
+ 
+    
+
+  /* --- FOOTER --- */
+
+  .rodape {
+  padding-top: 0;
+  }
+
+  .rodape__principal {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .rodape__logo img {
+  max-width: 300px;
+  }
+
+  .rodape__navegacao > li {
+   font-size: 14px;
+  }
+
+  .rodape__redes-sociais img {
+    max-width: 32px;
+    margin-right: 8px;
+  }
+
+}
+
+/* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- --- DESKTOP---   */
+
+@media (min-width: 1024px) {
+  .navegacao__box {
+    max-width: 80%;
+  }
+
+  /*.header {
+    min-height: 90vh;
+  }*/
+
+  .header {
+    display: flex;
+    text-align: center;
+    align-items: flex-end;
+  }
+
+  .navegacao__itens li {
+   font-size: 20px;
+    margin: 0 10px;
+  }
+
+  .principal__titulo {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+  .principal {
+    max-width: 650px;
+  }
+
+  /*.principal__titulo {
+    font-size: 40px;
+    /*padding: 40px 2000px 0px px;
+  }*/
+  
+ 
+
+  /* --- SECTION MARAVILHOSA --- */
+
+  
+  .raquel{
+    color: #63458a;
+    font-size: 16px;
+    margin: 0 80px;
+    padding: 50px;
+    align-items: baseline;
+    
+  }
+
+
+  .sobre_raquel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .perfil_foto{
+    width: 20%;
+
+  }
+
+  .texto_perfil{
+    font-size: 20px;
+    text-align: justify;
+    margin: 50px;
+    width: 50%;
+  }
+
+  .historia_raquel {
+    
+    font-size: 20px;
+  }
+
+  .historia_raquel > img {
+    height: 50%;
+    width: 100%;
+    margin: 30px;
+  
+  }
+
+  .sobre_autora{
+    margin:0px 0px 50px 0px;
+    background-color: #d676da;
+    width: 100%;
+
+  }
+
+  .perfil_autora{
+    display:flex;
+    justify-content:center;
+    
+ }
+
+    
+  .foto_autora{
+    width: 30%;
+  }
+
+  .img_autora{
+    width: 50%;
+    margin: 0;
+
+  }
+
+  .texto_autora{
+    font-size: 16px;
+    text-align: justify;
+    width: 70%;
+    
+  
+  }
+  
+  .texto_autora > a{
+    cursor: pointer;
+  }
+  
+}
+
+  
+  
+
+

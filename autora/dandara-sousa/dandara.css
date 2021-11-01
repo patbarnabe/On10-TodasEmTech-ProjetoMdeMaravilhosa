@@ -1,0 +1,516 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.img-responsive {
+  width: 100%;
+}
+
+/* define o tamanho da caixa */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+/* --- Mobile First--- */
+
+/* NAV  --- NAV  --- NAV */
+
+.navegacao {
+  background-color: #674582;
+  box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+  padding: 24px;
+  z-index: 99; 
+  position: fixed;
+  width: 100%;
+}
+
+.navegacao__logo {
+  max-width: 200px;
+}
+
+.navegacao__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+/* define o tamanho da caixa */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+.navegacao__itens {
+  display: none;
+}
+
+.navegacao__menu-hamburguer img {
+  border-radius: 2px;
+}
+
+/* --- BOTAO --- */
+
+.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px ;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.btn_roxo {
+  color: white;
+  background-color: #C083B9;
+  display: block;
+  max-width: 200px;
+  text-align: center;
+  transition: all .5s;
+  margin: 10px auto;
+
+}
+
+.btn_roxo:hover,
+.btn_roxo:focus {
+  transform: translateY(-06px);
+  box-shadow: 0 10px 10px rgba(0,0,0,.2);
+  background-color: rgb(192, 156, 188);
+}
+
+.btn_center {
+  margin: 0 auto;
+}
+
+/* HEADER  --- HEADER  --- HEADER */
+
+.header {
+  min-height: 40px; 
+  height: 400px;
+  background: linear-gradient(rgba(255, 0, 255, 0.2),
+                              rgba(255, 0, 255, 0.2)),
+            url(./img/bg-dandara.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: white;
+}
+
+.principal {
+  margin-bottom: 20px;
+}
+
+.principal__titulo {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.principal__sub {
+  font-weight: 300;
+  margin: 10px 0 16px 0;
+  font-size: 18px;
+  
+}
+
+/* --- SECTION AUTORA --- */
+
+h1, h2{
+  text-align: center;
+  margin: 30px;
+}
+
+.dandara{
+  color: #63458a;
+  font-size: 16px;
+  margin: 0 auto;
+  /*width: 100%;
+  max-width: 960px;*/
+  padding: 50px;
+  align-items: center;
+  
+}
+
+.sobre_dandara{
+  align-items: center;
+}
+
+
+.foto_perfil{
+  width: 100%;
+  border-radius: 10px;
+  
+}
+
+.texto_perfil{
+  font-size: 16px;
+  text-align:justify;
+  margin-top: 20px;
+}
+
+hr{
+  margin-top: 50px;
+}
+
+.sobre_mMaravilhosa{
+  line-height: 20px;
+  text-align: justify;
+}
+
+.imagem_texto {
+  width: 100%;
+  margin-bottom: 20px;
+  
+}
+
+.maravilhosas_bloco {
+  /*display: flex;*/
+  flex-wrap: wrap;
+  text-align: center;
+  color: #63458a;
+  margin-bottom: 30px;
+}
+
+.maravilhosa {
+  max-width: 120px;
+  margin: 48px;
+}
+
+.maravilhosas > img {
+  width: 300%;
+  border-radius: 10px;
+}
+
+.maravilhosas > p {
+  text-align: center;
+}
+
+
+/* --- FOOTER --- */
+
+.rodape {
+  background-color: #323534;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rodape__principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.rodape__principal > * {
+  margin: 16px 0;
+}
+
+.rodape__navegacao > li {
+  font-size: 14px;
+  margin: 8px;
+}
+
+.rodape__navegacao a {
+  transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+  color: #C083B9;
+}
+
+.rodape__logo {
+  max-width: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape__cc {
+  width: 100%;
+  background-color: #292A2A;
+  font-size: 14px;
+  opacity: 0.5;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+
+/*  --- TABLET --- --- TABLET --- */
+
+@media (min-width: 768px) {
+  /* --- NAV --- */
+  .navegacao__itens {
+    position: static;
+    display: flex;
+    padding: 0;
+    width: auto;
+  }
+
+  .navegacao__nav { 
+    color: #fff;
+    margin-bottom: 0;
+  }
+    
+  .navegacao__itens ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+    
+    .navegacao__itens li {
+    font-size: 14px;
+    margin: 0 9px;
+  }
+
+  .navegacao__itens.ativo {
+    display: block;
+    right: 0;
+    top: 85px;
+    width: 100%;
+    background-color: #674582;
+    text-align: center;
+    padding: 48px 0;
+    transition: right 1s;
+  }
+
+  .navegacao__itens li > a {
+    transition: all .2s;
+  }
+
+  .navegacao__itens li > a:hover {
+    color: #C083B9;
+  }
+    
+  .navegacao__menu-hamburguer {
+    display: none;
+  }
+
+  /* --- HEADER --- */
+   .header {
+      min-height: 75vh;
+      text-align: center;
+      padding: 10px 100px;
+    }
+
+  
+    .principal__titulo {
+        font-size: 28px;
+    }
+    
+    .principal__sub {
+        font-size: 18px;
+    }
+
+   /* .principal__btn {
+        margin: 0;
+    }*/
+
+  /* --- SECTION AUTORA --- */
+    
+  h1, h2{
+    text-align: center;
+    margin: 30px;
+  }
+  
+  .dandara{
+    color: #63458a;
+    font-size: 16px;
+    margin: 0 auto;
+    /*width: 100%;
+    max-width: 960px;*/
+    padding: 50px;
+    
+  }
+  
+  .sobre_dandara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .foto_perfil{
+    width: 100%;
+    border-radius: 10px;
+    
+  }
+  
+  .texto_perfil{
+    font-size: 16px;
+    text-align:justify;
+    margin: 50px;
+    
+  }
+  
+  hr{
+    margin-top: 50px;
+  }
+  
+  .sobre_mMaravilhosa{
+    line-height: 20px;
+    text-align: justify;
+  }
+  
+  .imagem_texto {
+    width: 100%;
+    margin-bottom: 20px;
+    
+  }
+
+
+/* --- FOOTER --- */
+
+  .rodape {
+  padding-top: 0;
+  }
+
+  .rodape__principal {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .rodape__logo img {
+  max-width: 300px;
+  }
+
+  .rodape__navegacao > li {
+   font-size: 14px;
+  }
+
+  .rodape__redes-sociais img {
+    max-width: 32px;
+    margin-right: 8px;
+  }
+
+
+}
+
+/* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- --- DESKTOP---   */
+
+@media (min-width: 1024px) {
+  .navegacao__box {
+    max-width: 80%;
+  }
+
+  .header {
+    min-height: 90vh;
+  }
+
+  .navegacao__itens li {
+   font-size: 24px;
+    margin: 0 16px;
+  }
+
+  .principal {
+    max-width: 650px;
+  }
+
+  .principal__titulo {
+    font-size: 26px;
+    padding: 40px 200px 0px px;
+  }
+  
+  .principal__sub {
+    font-size: 18px;
+    padding: 0px 400px 0px 0px;
+  }
+
+/* --- SECTION mMARAVILHOSA --- */
+
+  h1, h2{
+    text-align: center;
+    margin: 30px;
+  }
+  
+  .dandara{
+    color: #63458a;
+    font-size: 20px;
+    margin: 0 50px;
+    /*width: 100%;
+    max-width: 960px;*/
+    padding: 50px;
+    align-items: center;
+    
+  }
+  
+  .sobre_dandara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .foto_perfil{
+    width: 100%;
+  border-radius: 10px;
+    
+  }
+  
+  .texto_perfil{
+    font-size: 20px;
+    text-align:left;
+    margin: 50px;
+    
+  }
+  
+    
+  .sobre_mMaravilhosa{
+    line-height: 20px;
+    text-align: justify;
+  }
+  
+  .imagem_texto {
+    width: 100%;
+    height: 80%;
+    margin-bottom: 20px;
+    
+  }
+
+  .maravilhosas_bloco{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    /*margin: 0px auto;
+    margin-block-end: 20px;
+    flex-wrap: wrap;*/
+  }
+
+  .maravilhosas{
+    width: 29vh;
+    height: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 10px
+  }
+
+  .maravilhosas > img{
+    width: 20%;
+  }
+
+}  
+

@@ -1,94 +1,30 @@
-# On10-TodasEmTech-ProjetoMdeMaravilhosa 
+<h1 align="center">Reprograma 💜 Todas Em Tech - Projeto M de Maravilhosa</h1>
 
+<p align="center">10ª Turma | Front-end | abril 2021 | Semana 5 | Projeto 1 - M de Maravilhosa</p>
 
-On10 | Front-end | 2021 | Semana 5 | Projeto 1 - M de Maravilhosa
- 
-Professora: Raquel Andrade
+## Índice
 
-## Agenda 
-- **03/04**: Apresentação e Introdução ao projeto.
-- **03/04**: Planejar e Codar.
-- **03/04**: Finalizar a aula com o nosso primeiro PullRequest Juntinhas s2.
-- **06/04**: Monitoria 
-- **07/04**: Finalizar o projeto e dúvida extras.
+1. [Projeto](#books-projeto)
+2. [Requisitos Obrigatórios](#dart-requisitos-obrigatórios)
+3. [Protótipo Figma](#art-protótipo-figma)
+4. [Resultados](#heavy_check_mark-protótipo-figma)
+5. [Sobre a Desenvolvedora](#woman_technologist-sobre-a-desenvolvedora)
 
-## Projeto
-Escolha um personlidade Maravilhosa que te inspira para criar uma página de perfil dela.
-
-## Requisitos obrigatórios:
+## 📚 Projeto
+Escolher uma personalidade Maravilhosa e inspiradora para criar uma página de perfil em sua homenagem.
+:books
+## 🎯 Requisitos Obrigatórios
 1. A página deve ser responsiva;
 2. Seguir o layout conforme protótipo do Figma;
 3. Inserir na página principal (homepage) o nome e a foto selecionar de sua maravilhosa;
 
-
-## Protótipo Figma
+## 🎨 Protótipo Figma
 Seguir o layout no Figma [link](https://www.figma.com/file/CgnXgNdWjk4rxANWa5PCsu/MDM2021?node-id=0%3A1)
 
+## ✔️ Resultados
 
-**1.** Entrar no repositório e fazer o fork do repositório On10-TodasEmTech-ProjetoMdeMaravilhosa
+## 👩‍💻 Sobre a Desenvolvedora
+### Patrícia Barnabé
 
-   Link: [Repositório](https://github.com/reprograma/On10-TodasEmTech-ProjetoMdeMaravilhosa)
-
-**2.** Clicar no botão CODE e copiar o link.
-
-
-<img src="https://i.ibb.co/1J2MF22/git-fork.png" width="400" height="250" >
-
-     
-**3.** Abra o GitBash no seu desktop.
-   
-**4.** Siga os comando e seja feliz :)
-
-   **4.1**  Digite o comando:
- ``` 
-        pwd
- ```
-
-   **4.2**  Digite o comando:
- ```
-        cd desktop
- ```
-
-   **4.3** Digite o comando:
- ```
-       git clone https://github.com/reprograma/On10-TodasEmTech-ProjetoMdeMaravilhosa 
- ```
-
-   **4.4** Digite o comando:
- ```
-       cd On10-TodasEmTech-ProjetoMdeMaravilhosa
- ```
-
-   **4.5** Digite o comando:
- ```
-       git checkout -b seu-nome
- ```
-
-   **4.6** Digite o comando para abrir o projeto no vscode:
- ```
-       code . 
- ```
-___________________________________________________________________________________________________________
-
-   Continue no GITBASH e digite os seguintes comandos para realizar o primeiro PullRequest:
-___________________________________________________________________________________________________________
-
-**4.7** Digite o comando: 
- ```
-       git status
- ```
-
- **4.8** Digite 
- ```
-       git add .
- ```
-
- **4.9** Digite o comando:
- ```
-       git commit -m "primeiro commit"
- ```
-
- **4.10** Digite o comando:
- ```
-       git push origin nome-da-sua-branch (que será o seu nome)
- ```
+- [LinkedIn](https://www.linkedin.com/in/patriciabarnabe)
+- E-mail: patbarnabe5@gmail.com

@@ -1,0 +1,64 @@
+.header {
+  background-image: url("../img/bertha-lutz-banner.jpg");
+  background-position: center;
+  filter: grayscale(40);
+}
+
+.principal__titulo {
+  letter-spacing: 5px;
+  text-align: center;
+  color: rgb(19, 17, 17);
+  
+}
+
+.perfil1 {
+  margin-right: 2%;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.sobre {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.subtitulo {
+  padding-top: 2%;
+  text-align: center;
+}
+
+.frase {
+  margin: 5%;
+  padding: 20px;
+  border: solid 2px #674582;
+  text-align: center; 
+}
+
+.fotodestaque {
+  margin: 3%;
+  width: 100%;
+  text-align: center;
+  margin: 3% auto;
+}
+
+.historia {
+  margin-bottom: 5%;
+}
+
+.sobre__autora {
+  justify-content: center;
+  background-color: #E4B7E5;
+}
+
+.botao {
+  margin: 3% auto;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  border: none;
+  background-color: #C083B9;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+}

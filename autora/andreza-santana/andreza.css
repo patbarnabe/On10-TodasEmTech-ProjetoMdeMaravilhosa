@@ -1,0 +1,410 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* --- Mobile First--- */
+
+/* NAV */
+
+.navegacao {
+  background-color: #674582;
+  box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+  padding: 24px;
+  z-index: 99; 
+  position: fixed;
+  width: 100%;
+}
+
+.navegacao__logo {
+  max-width: 200px;
+}
+
+.navegacao__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.navegacao__itens {
+  display: none;
+}
+
+.navegacao__menu-hamburguer img {
+  border-radius: 2px;
+}
+
+/* HEADER */
+
+.header {
+  min-height: 40px; 
+  height: 75vh;
+  background: linear-gradient(rgba(255, 0, 255, 0.2),
+                              rgba(255, 0, 255, 0.2)),
+            url(img/bg-andreza.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px rgba(107, 9, 107, 0.2);
+}
+
+.principal {
+  margin-bottom: 20px;
+}
+
+.principal__titulo {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+  padding-bottom: 30px;
+}
+
+.img-responsive {
+  width: 180px;
+}
+
+/* --- CONTEÚDO MAIN --- */
+
+main {
+  padding: 5%;
+  color: #674582;;
+}
+
+/* PERFIL ANDREZA */
+
+.titulo_perfil {
+  font-size: 18px;
+  padding-bottom: 5%;
+  text-align: center;
+  font-weight: bold;
+}
+.conteudo_perfil {
+  display: flex;
+}
+
+.foto_perfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+}
+
+.texto_perfil {
+  font-size: 12px;
+  text-align:left;
+  padding: 0 10px;
+  line-height: 15px;
+}
+
+.texto_perfil_autora {
+  font-size: 12px;
+  margin-top: 10px;
+  padding: 0 10px;
+}
+
+.rede_perfil {
+  font-size: 12px;
+  margin-top: 10px;
+  padding: 0 10px;
+}
+
+ .linha {
+   margin: 10% 30%;
+   width: 40%;
+   align-items: center;
+   color: #674582;
+ }
+
+ /* SOBRE AUTORA */
+
+.titulo_sobre {
+  font-size: 16px;
+  padding: 5% 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.texto_sobre {
+  font-size: 12px;
+  text-align: left;
+  padding: 0 10px;
+  line-height: 20px;
+}
+
+.texto_sobre p {
+  padding-bottom: 20px;
+}
+
+.imagem_sobre {
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+/* --- FOOTER --- */
+
+.rodape {
+  background-color: #323534;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rodape__principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.rodape__principal > * {
+  margin: 16px 0;
+}
+
+.rodape__navegacao > li {
+  font-size: 14px;
+  margin: 8px;
+}
+
+.rodape__navegacao a {
+  transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+  color: #C083B9;
+}
+
+.rodape__logo {
+  max-width: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape__cc {
+  width: 100%;
+  background-color: #292A2A;
+  font-size: 14px;
+  opacity: 0.5;
+  text-align: center;
+  padding: 10px;
+}
+
+/*  --- TABLET --- */
+
+@media (min-width: 768px) {
+  /* --- NAV --- */
+  .navegacao__itens {
+    position: static;
+    display: flex;
+    padding: 0;
+    width: auto;
+  }
+
+  .navegacao__nav { 
+    color: #fff;
+    margin-bottom: 0;
+  }
+    
+  .navegacao__itens ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+    
+  .navegacao__itens li {
+    font-size: 14px;
+    margin: 0 9px;
+  }
+
+  .navegacao__itens.ativo {
+    display: block;
+    right: 0;
+    top: 85px;
+    width: 100%;
+    background-color: #674582;
+    text-align: center;
+    padding: 48px 0;
+    transition: right 1s;
+  }
+
+  .navegacao__itens li > a {
+    transition: all .2s;
+  }
+
+  .navegacao__itens li > a:hover {
+    color: #C083B9;
+  }
+    
+  .navegacao__menu-hamburguer {
+    display: none;
+  }
+
+  /* --- HEADER --- */
+  .header {
+    min-height: 75vh;
+    text-align: left;
+     padding: 10px 100px;
+  }
+
+  .principal__titulo {
+    font-size: 28px;
+   }
+    
+  .principal__sub {
+    font-size: 18px;
+  }
+
+  .principal__btn {
+    margin: 0;
+  }
+
+  .img-responsive {
+    width: 200px;
+  }
+
+  /* MAIN */
+
+  main {
+    padding: 5% 20%;
+  }
+
+  .foto_perfil {
+    width: 150px;
+    height: 150px;
+  }
+
+  .titulo_perfil {
+    font-size: 24px;
+  }
+  
+  .texto_perfil {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 8px;
+  }
+
+  .texto_perfil_autora {
+    font-size: 14px;
+  }
+  
+  .rede_perfil {
+    font-size: 14px;
+  }
+
+  /* SOBRE AUTORA */
+
+.titulo_sobre {
+  font-size: 18px;
+}
+
+.texto_sobre {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.imagem_sobre {
+  width: 100%;
+  padding-bottom: 5%;
+}
+  
+  /* --- FOOTER --- */
+  .rodape {
+    padding-top: 0;
+  }
+  .rodape__principal {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .rodape__logo img {
+    max-width: 300px;
+  }
+
+  .rodape__navegacao > li {
+    font-size: 14px;
+  }
+
+  .rodape__redes-sociais img {
+    max-width: 32px;
+    margin-right: 8px;
+   }
+
+}
+/* --- DESKTOP---  */
+
+@media (min-width: 1200px) {
+
+  .principal {
+    max-width: 650px;
+  }
+
+  .principal__titulo {
+    font-size: 26px;
+    padding: 40px 200px 0px px;
+  }
+  
+  .principal__sub {
+    font-size: 18px;
+    padding: 0px 400px 0px 0px;
+  }
+
+  .img-responsive {
+    width: 200px;
+  }
+
+  main {
+    padding: 5% 20%;
+  }
+
+  .titulo_perfil {
+    font-size: 24px;
+  }
+  
+  .texto_perfil {
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 0px;
+  }
+
+  .texto_perfil_autora {
+    font-size: 18px;
+    padding: 8px 10px;
+  }
+  
+  .rede_perfil {
+    font-size: 18px;
+  }
+
+  .linha {
+    margin-top: 6 0px;
+    margin-bottom: 20px;
+  }
+
+  .texto_sobre {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+}  
+

@@ -1,0 +1,409 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  margin: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.img-responsive {
+width: 100%;
+}
+
+/* define o tamanho da caixa */
+.container {
+margin: 0 auto;
+width: 100%;
+max-width: 960px;
+}
+
+/* --- Mobile First--- */
+
+/* NAV  --- NAV  --- NAV */
+
+.navegacao {
+background-color: #674582;
+box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+padding: 24px;
+z-index: 99; 
+position: fixed;
+width: 100%;
+}
+
+.navegacao__logo {
+max-width: 200px;
+}
+
+.navegacao__box {
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 90%;
+}
+
+/* define o tamanho da caixa */
+.container {
+margin: 10px;
+width: 90%;
+max-width: 960px;
+}
+
+.navegacao__itens {
+display: none;
+}
+
+
+
+/* --- BOTAO --- */
+
+.btn {
+text-transform: uppercase;
+font-weight: bold;
+padding: 16px ;
+border-radius: 5px;
+font-size: 14px;
+}
+
+.btn_roxo {
+color: white;
+background-color: #C083B9;
+display: block;
+max-width: 200px;
+text-align: center;
+transition: all .5s;
+margin: 20px;
+}
+
+.btn_roxo:hover,
+.btn_roxo:focus {
+transform: translateY(-06px);
+box-shadow: 0 10px 10px rgba(0,0,0,.2);
+background-color: rgb(192, 156, 188);
+}
+
+.btn_center {
+margin: 0 auto;
+}
+
+/* HEADER  --- HEADER  --- HEADER */
+
+.header {
+min-height: 40px; 
+height: 500px;
+background: url(../analice-prado/img/banner-analice.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+align-items: flex-end;
+text-align: left;
+color: white;
+}
+
+.principal {
+margin-bottom: 20px;
+}
+
+.principal__titulo {
+text-transform: uppercase;
+font-size: 48px;
+font-weight: 900;
+}
+
+.principal__sub {
+font-weight: 300;
+margin: 10px 0 16px 0;
+font-size: 18px;
+
+}
+/* --- SECTION MARAVILHOSA --- */
+
+
+.maravilhosa__titulo {
+font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+color: #63458a;
+font-size: 20px;
+text-align: center;
+
+}
+
+.maravilhosa__box {
+text-align: center;
+margin-top: 0%;
+padding: 0%;
+}
+
+.conteudo__site {
+font-size: 14px;
+display:flex;
+flex-wrap: wrap;
+text-align:justify;
+padding: 1%;
+
+}
+
+.frase {
+
+background: rgb(80, 53, 82);
+color: #FFF;
+padding: 20px;
+border: 5px solid #CCC;
+text-align: justify;
+margin-top: 0%;
+
+}
+
+.historia__titulo {
+text-align: center;
+margin-top: 30px;
+font-size: 24px;
+
+}
+
+.historia {
+font-size: 18px;
+display:flex;
+flex-wrap: wrap;
+text-align:justify;
+padding: 10px;
+justify-content: center;
+align-items: center;
+
+}
+
+.instagram {
+  text-align: center;
+}
+
+
+.display__titulo {
+
+font-size: 20px;
+text-align: center;
+padding: 10px;
+}
+
+.fotos_titulo {
+font-size: 12px;
+display: inline-block;
+text-align: end;
+align-items: center;
+padding: 10px;
+}
+
+.autora {
+position:fixed
+display: inline-block;
+background: #E4B7E5;
+color: rgb(14, 13, 13);
+padding: 10px;
+
+}
+
+.minhafoto{
+text-align: left;
+
+
+}
+
+.dadosautora {
+text-align:left;
+position: absolute;
+margin-left: 10%;
+}
+
+
+
+/* --- FOOTER --- */
+
+.rodape {
+background-color: #323534;
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.rodape__principal {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+}
+
+.rodape__principal > * {
+margin: 16px 0;
+}
+
+.rodape__navegacao > li {
+font-size: 14px;
+margin: 8px;
+}
+
+.rodape__navegacao a {
+transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+color: #C083B9;
+}
+
+.rodape__logo {
+max-width: 200px;
+align-items: center;
+justify-content: center;
+}
+
+.rodape__cc {
+width: 100%;
+background-color: #292A2A;
+font-size: 14px;
+opacity: 0.5;
+text-align: center;
+padding: 10px;
+}
+
+
+/* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- --- DESKTOP---   */
+
+@media (min-width: 1440px) {
+  
+  .navegacao {
+  background-color: #674582;
+  box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+  padding: 24px;
+  z-index: 99; 
+  position: fixed;
+  width: 100%;
+}
+
+.navegacao__logo {
+  max-width: 200px;
+}
+
+.navegacao__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+/* define o tamanho da caixa */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+}
+
+.navegacao__itens {
+  display: none;
+}
+
+
+/* HEADER  --- HEADER  --- HEADER */
+
+.header {
+  align-items: center;
+  text-align: center;
+  
+}
+
+.principal {
+  margin-bottom: 20px;
+}
+
+.principal__titulo {
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.principal__sub {
+  font-weight: 300;
+  margin: 10px 0 16px 0;
+  font-size: 18px;
+  
+}
+/* --- SECTION MARAVILHOSA --- */
+
+.maravilhosa__titulo {
+  font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+  color: #63458a;
+  font-size: 36px;
+  text-align: center;
+  align-items: center;
+ 
+}
+
+.maravilhosa__box {
+  text-align: center;
+  padding: 10%;
+
+}
+
+.conteudo__site {
+  font-size: 18px;
+  display:flex;
+  flex-wrap: wrap;
+  text-align:justify;
+
+  
+  }
+/* --- FOOTER --- */
+
+.rodape {
+  background-color: #323534;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rodape__principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.rodape__principal > * {
+  margin: 16px 0;
+}
+
+.rodape__navegacao > li {
+  font-size: 14px;
+  margin: 8px;
+}
+
+.rodape__navegacao a {
+  transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+  color: #C083B9;
+}
+
+.rodape__logo {
+  max-width: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape__cc {
+  width: 100%;
+  background-color: #292A2A;
+  font-size: 14px;
+  opacity: 0.5;
+  text-align: center;
+  padding: 10px;
+}

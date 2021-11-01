@@ -1,0 +1,534 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.img-responsive {
+  width: 100%;
+}
+
+/* define o tamanho da caixa */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+/* --- Mobile First--- */
+
+/* NAV  --- NAV  --- NAV */
+
+.navegacao {
+  background-color: #674582;
+  box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+  padding: 24px;
+  z-index: 99; 
+  position: fixed;
+  width: 100%;
+}
+
+.navegacao__logo {
+  max-width: 200px;
+}
+
+.navegacao__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+/* define o tamanho da caixa */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+.navegacao__itens {
+  display: none;
+}
+
+.navegacao__menu-hamburguer img {
+  border-radius: 2px;
+}
+
+
+/* HEADER  --- HEADER  --- HEADER */
+
+.header {
+  background-image: url(./img/WONDER-banner.jpeg);
+  min-height: 40px; 
+  height: 500px;
+  background: linear-gradient(white);        
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: white;
+}
+
+h1{
+  margin-bottom: 100px;
+}
+
+/* MAIN  --- MAIN  --- MAIN */
+
+h2 {
+  font-weight: bold;
+  color: #63458a;
+  padding: 20px;
+  font-size:20px;
+  text-align: center;
+}
+
+.perfil {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+}
+
+.fotoPerfil{
+  width: 100px;
+  height: 100px;
+  padding-left: 10px;
+  margin-left: 15px;
+  border-radius: 15px;
+}  
+
+.textoPerfil {
+  padding-top: 5px;
+  padding-left: 15px;
+  margin-right: 40px;
+  text-align: left;
+}
+
+.caixaPerfil{
+  border: 1px #63458A  solid;
+  color: #63458A;;
+  padding: 25px;
+  text-align: center;
+  margin: 25px;
+  line-height: 14,63px;
+}
+
+.contaHistoria{
+  margin: 25px;
+  text-align: initial;
+}
+
+.logoDaMaravilhosa{
+  height: 67px;
+  padding-right: 5px;
+  padding-left: 27px;
+  margin: 20px;
+ }
+
+ .sobreAutora{
+   background-color: #E4B7E5; ;
+   color: #63458A;
+   margin-bottom: 20px;
+   display: flex;
+   justify-content: start;
+   flex-direction: row;
+ }
+
+ .perfilAutora{
+  width: 100px;
+  height: 100px;
+  padding-left: 10px;
+  margin: 15px;
+ }
+
+.textoAutora {
+  padding-top: 25px;
+  padding-bottom: 20px;
+  margin-right: 30px;
+  text-align: left;
+  font: montserrast;
+  color: #63458A;
+  font-size: 10px;
+}
+
+.botaoFinal{
+  color: white;
+  background-color: #C083B9;
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px ;
+  width: 180px;
+  border-radius: 5px ;
+  font-size: 12px;
+  border-style: none;
+  margin-bottom: 20px;
+}
+
+/* --- FOOTER --- */
+
+.rodape {
+  background-color: #323534;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rodape__principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.rodape__principal > * {
+  margin: 16px 0;
+}
+
+.rodape__navegacao > li {
+  font-size: 14px;
+  margin: 8px;
+}
+
+.rodape__navegacao a {
+  transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+  color: #C083B9;
+}
+
+.rodape__logo {
+  max-width: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape__cc {
+  width: 100%;
+  background-color: #292A2A;
+  font-size: 14px;
+  opacity: 0.5;
+  text-align: center;
+  padding: 10px;
+}
+
+/* --- Tablet--- --- tablet---   */
+
+@media(min-width:768px){
+  .navegacao__box {
+    max-width: 80%;
+  }
+  .navegacao__box {
+    max-width: 80%;
+  }
+
+  .navegacao__itens {
+    position: static;
+    display: flex;
+    padding: 0;
+    width: auto;
+  }
+
+  .navegacao__nav { 
+    color: #fff;
+    margin-bottom: 0;
+  }
+    
+  .navegacao__itens ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+    
+  .navegacao__itens li {
+    font-size: 14px;
+    margin: 0 9px;
+  }
+
+  .navegacao__itens.ativo {
+    display: block;
+    right: 0;
+    top: 85px;
+    width: 100%;
+    background-color: #674582;
+    text-align: center;
+    padding: 48px 0;
+    transition: right 1s;
+  }
+
+  .navegacao__itens li > a {
+    transition: all .2s;
+  }
+
+  .navegacao__itens li > a:hover {
+    color: #C083B9;
+  }
+    
+  .navegacao__menu-hamburguer {
+    display: none;
+  }
+
+  .principal__titulo{
+    margin-bottom: 50px;
+  }
+
+  /* --- MAIN -- --- MAIN --   */
+  .perfil{
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .fotoPerfil{
+  width: 250px;
+  height: 250px;
+  margin-right: 5px;
+  }
+
+  .textoPerfil {
+    padding-top: 25px;
+    padding-left: 15px;
+    margin-right: 4px;
+    text-align: left;
+  }
+
+  .caixaPerfil{
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-right: 180px;
+    padding: 50px;
+    font-size: 20px;
+  }
+
+  .contaHistoria{
+    margin-left: 180px;
+    margin-right: 180px;
+    font-size: 20px;
+  }
+
+  .logoM{
+    display: flex;
+    justify-content: center;
+  }
+
+  .logoDaMaravilhosa{
+    width:400px;
+    height: 140px;
+  }
+
+  .sobreAutora{
+    justify-content: center;
+  }
+
+  .perfilAutora{
+    width: 200px;
+    height: 200px;
+    margin: 0;
+  }
+
+  .textoAutora{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+
+  .botaoFinal{
+  width: 300px;
+  padding: 25px;
+  font-size: 20px;
+  }
+
+/* --- FOOTER --- */
+
+.rodape {
+  padding-top: 0;
+  }
+
+.rodape__principal {
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+  }
+
+  .rodape__logo img {
+  max-width: 300px;
+  }
+
+  .rodape__navegacao > li {
+   font-size: 14px;
+  }
+
+  .rodape__redes-sociais img {
+    max-width: 32px;
+    margin-right: 8px;
+  }
+
+}
+
+/* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- --- DESKTOP---   */
+
+@media (min-width: 1200px) {
+  .navegacao__box {
+    max-width: 80%;
+  }
+  .navegacao__box {
+    max-width: 80%;
+  }
+
+  .navegacao__itens {
+    position: static;
+    display: flex;
+    padding: 0;
+    width: auto;
+  }
+
+  .navegacao__nav { 
+    color: #fff;
+    margin-bottom: 0;
+  }
+    
+  .navegacao__itens ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+    
+  .navegacao__itens li {
+    font-size: 14px;
+    margin: 0 9px;
+  }
+
+  .navegacao__itens.ativo {
+    display: block;
+    right: 0;
+    top: 85px;
+    width: 100%;
+    background-color: #674582;
+    text-align: center;
+    padding: 48px 0;
+    transition: right 1s;
+  }
+
+  .navegacao__itens li > a {
+    transition: all .2s;
+  }
+
+  .navegacao__itens li > a:hover {
+    color: #C083B9;
+  }
+    
+  .navegacao__menu-hamburguer {
+    display: none;
+  }
+
+  .principal__titulo{
+    margin-bottom: 50px;
+  }
+
+  .perfil{
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .fotoPerfil{
+  width: 250px;
+  height: 250px;
+  margin-right: 50px;
+  }
+
+  .textoPerfil{
+    padding-top: 30px;
+    font-size: 20px;
+  }
+
+  .caixaPerfil{
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-right: 180px;
+    padding: 50px;
+    font-size: 20px;
+  }
+
+  .contaHistoria{
+    margin-left: 180px;
+    margin-right: 180px;
+    font-size: 20px;
+  }
+
+  .logoDaMaravilhosa{
+    width: 800px;
+    height: 350px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .sobreAutora{
+    justify-content: center;
+  }
+
+  .perfilAutora{
+    width: 200px;
+    height: 200px;
+    margin: 0;
+  }
+
+  .textoAutora{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+
+  .botaoFinal{
+  width: 300px;
+  padding: 25px;
+  font-size: 20px;
+  }
+
+/* --- FOOTER --- */
+
+.rodape {
+  padding-top: 0;
+  }
+
+.rodape__principal {
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+  }
+
+  .rodape__logo img {
+  max-width: 300px;
+  }
+
+  .rodape__navegacao > li {
+   font-size: 14px;
+  }
+
+  .rodape__redes-sociais img {
+    max-width: 32px;
+    margin-right: 8px;
+  }
+
+}

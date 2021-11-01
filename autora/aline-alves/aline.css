@@ -1,0 +1,482 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  margin: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.img-responsive {
+width: 100%;
+}
+
+/* define o tamanho da caixa */
+.container {
+margin: 0 auto;
+width: 100%;
+max-width: 960px;
+}
+
+/* --- Mobile First--- */
+
+/* NAV  --- NAV  --- NAV */
+
+.navegacao {
+background-color: #674582;
+box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+padding: 24px;
+z-index: 99; 
+position: fixed;
+width: 100%;
+}
+
+.navegacao__logo {
+max-width: 200px;
+}
+
+.navegacao__box {
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 90%;
+}
+
+/* define o tamanho da caixa */
+.container {
+margin: 0 auto;
+width: 100%;
+max-width: 960px;
+}
+
+.navegacao__itens {
+display: none;
+}
+
+.navegacao__menu-hamburguer img {
+border-radius: 2px;
+}
+
+/* --- BOTAO --- */
+
+.btn {
+text-transform: uppercase;
+font-weight: bold;
+padding: 16px ;
+border-radius: 5px;
+font-size: 14px;
+}
+
+.btn_roxo {
+color: white;
+background-color: #C083B9;
+display: block;
+max-width: 200px;
+text-align: center;
+transition: all .5s;
+margin: 0 auto;
+}
+
+.btn_roxo:hover,
+.btn_roxo:focus {
+transform: translateY(-06px);
+box-shadow: 0 10px 10px rgba(0,0,0,.2);
+background-color: rgb(192, 156, 188);
+}
+
+.btn_center {
+margin: 0 auto;
+}
+
+/* HEADER  --- HEADER  --- HEADER */
+
+.header {
+min-height: 40px; 
+height: 500px;
+background: linear-gradient(rgba(255, 0, 255, 0.2),
+                            rgba(255, 0, 255, 0.2)),
+          url(./img/capaAutora.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+align-items: flex-end;
+text-align: center;
+color: white;
+background-position: 0 100px ; 
+}
+
+.principal {
+margin-bottom: 20px;
+}
+
+.principal__titulo {
+text-transform: uppercase;
+font-size: 22px;
+font-weight: 900;
+margin-bottom: 150px;
+}
+
+.principal__sub {
+font-weight: 300;
+margin: 10px 0 16px 0;
+font-size: 18px;
+
+}
+/* --- Main--- */
+
+h2 {
+font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+color: #63458a;
+font-size: 20px;
+text-align: center;
+margin-top: 30px;
+}
+
+.perfilInicio{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.fotoPerfil {
+  width: 150px;
+  height: 150px;
+  margin: 30px 10px 10px 30px;
+  border-radius: 15px;
+}
+
+.textoPerfil{
+  margin-top: 32px;
+  margin-right: 20px;
+  text-align: left;
+  font-size: 10px;
+  color: 63458A;
+  color: #63458a;
+}
+
+.textoMaravilhosa{
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+ text-align: inherit;
+}
+
+hr {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.tituloMaravilhosa{
+  margin-bottom: 20px;
+}
+
+.imgReprograma{
+  display: flex;
+  justify-content: center;
+}
+
+.sobreReprograma{
+ margin-top: 20px;
+ margin-bottom: 20px;
+ width: 300px;
+ height: 180px;
+}
+
+.blocoMaravilhosas{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 25px;
+}
+
+.blocoMaravilhosas div{
+  width: 210px;
+  height: 210px;
+  /* margin:50px; */
+  margin-bottom: 50px;
+}
+
+.tituloMaravilhosa{
+  margin-bottom: 15px;
+}
+
+.outrasMaravilhosas_img{
+  width: 210px;
+  height: 210px; 
+}
+
+.outrasMaravilhosas {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: block;
+}
+
+ul {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.botaoFinal{
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+   
+}
+button{
+  background-color: #C083B9;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  border:0;
+}
+
+
+/* --- FOOTER --- */
+
+.rodape {
+background-color: #323534;
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.rodape__principal {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+}
+
+.rodape__principal > * {
+margin: 16px 0;
+}
+
+.rodape__navegacao > li {
+font-size: 14px;
+margin: 8px;
+}
+
+.rodape__navegacao a {
+transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+color: #C083B9;
+}
+
+.rodape__logo {
+max-width: 200px;
+align-items: center;
+justify-content: center;
+}
+
+.rodape__cc {
+width: 100%;
+background-color: #292A2A;
+font-size: 14px;
+opacity: 0.5;
+text-align: center;
+padding: 10px;
+}
+
+
+/*  --- TABLET --- --- TABLET --- */
+
+@media (min-width: 768px) {
+/* --- NAV --- */
+.navegacao__itens {
+  position: static;
+  display: flex;
+  padding: 0;
+  width: auto;
+}
+
+
+
+.navegacao__nav { 
+  color: #fff;
+  margin-bottom: 0;
+}
+  
+.navegacao__itens ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+  
+  .navegacao__itens li {
+  font-size: 14px;
+  margin: 0 9px;
+}
+
+.navegacao__itens.ativo {
+  display: block;
+  right: 0;
+  top: 85px;
+  width: 100%;
+  background-color: #674582;
+  text-align: center;
+  padding: 48px 0;
+  transition: right 1s;
+}
+
+.navegacao__itens li > a {
+  transition: all .2s;
+}
+
+.navegacao__itens li > a:hover {
+  color: #C083B9;
+}
+  
+.navegacao__menu-hamburguer {
+  display: none;
+}
+
+/* --- HEADER --- */
+  .principal__titulo {
+      font-size: 28px;
+  }
+  
+  .principal__sub {
+      font-size: 18px;
+  }
+
+  .principal__btn {
+      margin: 0;
+  }
+
+/* --- Main --- */
+  
+  main{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+ 
+
+  .fotoPerfil{
+    width: 500px;
+    height: 200px;
+    margin-right: 25px;
+  }
+
+  .textoPerfil{
+    font-size: 15px;
+  }
+  
+  hr{
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+ .sobreReprograma{
+   width: 800px;
+   height: 200px;
+ }
+ 
+ .blocoMaravilhosas{
+  flex-direction: row;
+  display: flex;
+ 
+ }
+
+ button {
+   font-size: 17px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 55px;
+   padding-right: 55px;
+  
+ }
+
+
+/* --- FOOTER --- */
+
+.rodape {
+padding-top: 0;
+}
+
+.rodape__principal {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.rodape__logo img {
+max-width: 300px;
+}
+
+.rodape__navegacao > li {
+ font-size: 14px;
+}
+
+.rodape__redes-sociais img {
+  max-width: 32px;
+  margin-right: 8px;
+}
+
+}
+
+/* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- --- DESKTOP---   */
+
+@media (min-width: 1200px) {
+.navegacao__box {
+  max-width: 80%;
+}
+
+.header {
+  min-height: 90vh;
+}
+
+.fotoPerfil{
+  width: 450px;
+  height: 180px;
+  margin-right: 25px;
+}
+
+.textoPerfil{
+  font-size: 20px;
+}
+
+hr{
+  margin-left: 350px;
+  margin-right: 350px;
+  color: #674582;
+}
+
+.textoMaravilhosa{
+  font-size: 20px;
+}
+
+.sobreReprograma{
+ width: 1000px;
+ height: 350px;
+ margin-bottom: 50px;
+}
+
+.tituloMaravilhosa{
+  font-size: 25px ;
+}
+
+li{
+  
+  display: inline-block;
+}
+
+}  
+

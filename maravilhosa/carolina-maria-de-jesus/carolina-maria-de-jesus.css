@@ -1,0 +1,439 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.subtitulo{
+    font-size: 18px;
+    text-align: center;
+}
+
+/* --- BOTAO --- */
+
+.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px ;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.btn_roxo {
+  color: white;
+  background-color: #C083B9;
+  display: block;
+  max-width: 200px;
+  text-align: center;
+  transition: all .5s;
+  margin: 0 auto;
+}
+
+.btn_roxo:hover,
+.btn_roxo:focus {
+  transform: translateY(-06px);
+  box-shadow: 0 10px 10px rgba(0,0,0,.2);
+  background-color: rgb(192, 156, 188);
+}
+
+.btn_center {
+  margin: 0 auto;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.img-responsive {
+  width: 100%;
+}
+
+/* define o tamanho da caixa */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+/* --- Mobile First--- */
+
+/* NAV  --- NAV  --- NAV */
+
+.navegacao {
+  background-color: #674582;
+  box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+  padding: 24px;
+  z-index: 99; 
+  position: fixed;
+  width: 100%;
+}
+
+.navegacao__logo {
+  max-width: 200px;
+}
+
+.navegacao__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+/* define o tamanho da caixa */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+.navegacao__itens {
+  display: none;
+}
+
+.navegacao__menu-hamburguer img {
+  border-radius: 2px;
+}
+
+/* HEADER  --- HEADER  --- HEADER */
+
+.header {
+    min-height: 40px; 
+    height: 500px;
+    background: url(../carolina-maria-de-jesus/carolina-maria-de-jesus.img/banner-carolina-maria-de-jesus.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: white;
+}
+  
+.principal {
+    margin-bottom: 115px;
+}
+  
+.principal__titulo {
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #fff;
+    margin: 15px;
+}
+
+/*--artigo-maravilhosa--*/
+
+.artigo_maravilhosa{
+    color:#674582 ;
+}
+
+.section{
+    margin: 40px;
+}
+
+.div_conteudo_resumo_maravilhosa{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.imagem_perfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+}
+
+.texto_resumo_maravilhosa{
+    font-size: 9px;
+    width: 55%;
+
+}
+
+.div_frase_resumo_maravilhosa{
+    border:solid 1px;
+    border-color: #674582 ;
+}
+
+.frase_resumo_maravilhosa{
+    text-align: center;
+    margin: 20px;
+    font-size: 8px;
+    font-weight: bold;
+    line-height: 15px;
+}
+
+.subtitulo_historia_maravilhosa{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.texto_historia_maravilhosa{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.img_historia_maravilhosa{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section_sobre_autora{
+    background:#C083B9;
+    display: flex;
+    justify-content: center;
+}
+
+.div_sobre_autora{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    width: 80%;
+}
+
+.lista_autora{
+    padding: 10px;
+}
+
+.item_lista_autora{
+    list-style: none;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.item_lista_autora a{
+    color: rgb(135, 103, 165);
+}
+
+
+/* ver mais*/
+.div_ver_todas{
+    margin: 30px;
+}
+/* --- FOOTER --- */
+
+.rodape {
+    background-color: #323534;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.rodape__principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+  
+.rodape__principal > * {
+    margin: 16px 0;
+}
+  
+.rodape__navegacao > li {
+    font-size: 14px;
+    margin: 8px;
+}
+  
+.rodape__navegacao a {
+    transition: all .5s;
+}
+  
+.rodape__navegacao a:hover {
+    color: #C083B9;
+}
+  
+.rodape__logo {
+    max-width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+  
+.rodape__cc {
+    width: 100%;
+    background-color: #292A2A;
+    font-size: 14px;
+    opacity: 0.5;
+    text-align: center;
+    padding: 10px;
+}
+
+/*  --- TABLET --- --- TABLET --- */
+
+@media (min-width: 768px) {
+    /* --- NAV --- */
+
+    .main p{
+      font-size:12px;
+    }
+    .navegacao__itens {
+      position: static;
+      display: flex;
+      padding: 0;
+      width: auto;
+    }
+  
+    .navegacao__nav { 
+      color: #fff;
+      margin-bottom: 0;
+    }
+      
+    .navegacao__itens ul {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      align-items: center;
+      text-align: center;
+    }
+      
+    .navegacao__itens li {
+      font-size: 14px;
+      margin: 0 9px;
+    }
+  
+    .navegacao__itens.ativo {
+      display: block;
+      right: 0;
+      top: 85px;
+      width: 100%;
+      background-color: #674582;
+      text-align: center;
+      padding: 48px 0;
+      transition: right 1s;
+    }
+  
+    .navegacao__itens li > a {
+      transition: all .2s;
+    }
+  
+    .navegacao__itens li > a:hover {
+      color: #C083B9;
+    }
+      
+    .navegacao__menu-hamburguer {
+      display: none;
+    }
+
+  /* --- HEADER --- */
+  .header {
+    min-height: 75vh;
+    text-align: center;
+    padding: 10px 100px;
+  }
+
+  .principal__titulo {
+      font-size: 28px;
+  }
+
+/*artigo*/
+  .imagem_perfil{
+    width: 130px;
+    height: 130px;
+  }
+    .section{
+      margin-left: 120px;
+      margin-right: 120px;
+    }
+
+    .subtitulo{
+      font-size: 20px;
+      text-align: center;
+    }
+    .div_conteudo_resumo_maravilhosa {
+      display: flex;
+      justify-content: space-around;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .texto_resumo_maravilhosa{
+      width: 65%;
+    }
+
+    .img_historia_maravilhosa{
+      height: 220px;
+    }
+
+    .div_sobre_autora{
+      justify-content: center;
+      padding: 0;
+    }
+
+    .lista_autora{
+      padding: 40px;
+    }
+
+    .item_lista_autora{
+      font-size: 10px;
+    }
+
+    /* --- FOOTER --- */
+
+  .rodape {
+    padding-top: 0;
+    }
+  
+    .rodape__principal {
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .rodape__logo img {
+    max-width: 300px;
+    }
+  
+    .rodape__navegacao > li {
+     font-size: 14px;
+    }
+  
+    .rodape__redes-sociais img {
+      max-width: 32px;
+      margin-right: 8px;
+    }
+}
+
+/* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- --- DESKTOP---   */
+  
+@media (min-width: 1281px) {
+  .principal__titulo {
+    font-size: 45px;
+  }
+
+  .subtitulo{
+    font-size: 35px;
+  }
+
+  .main p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .section{
+    margin-left: 230px;
+    margin-right: 230px;
+  }
+  .imagem_perfil {
+    width: 160px;
+    height: 160px;
+ }
+ .div_conteudo_resumo_maravilhosa{
+   margin-right: 60px;
+   margin-left: 60px;
+ }
+ .img_historia_maravilhosa{
+   height: 360px;
+ }
+  
+ .item_lista_autora {
+  font-size: 20px;
+ }
+}  

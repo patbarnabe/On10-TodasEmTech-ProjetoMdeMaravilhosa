@@ -1,0 +1,982 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  margin: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.img-responsive {
+width: 100%;
+}
+
+/* define o tamanho da caixa */
+.container {
+margin: 0 auto;
+width: 100%;
+max-width: 960px;
+}
+
+/*---MAIN----*/
+
+.caixa_grande {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  line-height: 34px;
+  color: #63458A;
+  
+}
+
+.caixa_grandona{
+    
+  display: flex;
+  
+  flex-direction: center;
+  
+  align-items: center;
+  
+  justify-content: center;
+  
+  width: 100%;
+  
+  }
+  
+.primeira_img{
+  
+  max-width: 200px;
+  
+  border-radius: 30px;
+  
+  }
+  
+.primeira_img img{
+  
+      max-width: 150px;
+      width: 200%;
+  }
+  
+.texto_ladobio{
+  
+  width: 50%;
+  
+  
+  }
+  
+.texto_ladobio2{
+  
+  width: 50%; 
+  }
+  
+.caixacomborda{
+  
+  border:#674582 1px solid;
+  
+  text-align: center;
+  
+  width: 70%;
+  
+  padding: 10px;
+  
+  box-sizing: border-box;
+  
+  font-size:20px;
+
+  margin: 20px auto ;
+  }
+
+.citacao{
+  color: #674582;
+  }
+
+.imagemdabio{
+  margin-right: 50px;
+  }
+
+
+.historia{
+    margin: auto;
+    width: 70%;
+    }
+
+.fotomeio {
+  width: 100%;
+  height: 100%;
+
+}
+
+.caixa_autora{
+  color: #63458a;
+  font-size: 15px;
+  width: 100%;
+  height: 100px;
+  background-color:#e4b7e5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5px;
+
+}
+
+.autora_img img{
+  max-width: 150px;
+  width: 100%;
+
+} 
+
+p {
+    
+  font-size: 16px;
+  text-align: center;
+  color: #63458A;
+  
+}
+
+
+     
+h1{ 
+  color: #ffffff; 
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  font-weight: 900;
+  text-align: center;
+  }
+          
+h2{
+    font-size: 25px;
+    text-align: center;
+    color: #63458A;   
+  }
+         
+h3{
+  font-size: 20px;
+  text-align: left;
+  color: #63458A;
+}
+      
+h4{
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+  height: 20px;
+
+}
+
+
+
+/* --- BOTAO --- */
+
+.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px ;
+  border-radius: 5px;
+  font-size: 14px;
+  
+}
+
+
+.btn_roxo {
+  color: white;
+  background-color: #C083B9;
+  display: block;
+  max-width: 200px;
+  text-align: center;
+  transition: all .5s;
+  margin: 0 auto;
+  
+ 
+}
+
+.btn_roxo:hover,
+.btn_roxo:focus {
+  transform: translateY(-06px);
+  box-shadow: 0 10px 10px rgba(0,0,0,.2);
+  background-color: rgb(192, 156, 188);
+}
+
+.btn_center {
+  margin:auto;
+ 
+}
+.botao{
+
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/* HEADER  --- HEADER  --- HEADER */
+
+.header {
+  min-height: 40px; 
+  height: 500px;
+  background: linear-gradient(rgba(255, 0, 255, 0.2),
+                              rgba(255, 0, 255, 0.2)),
+            url(http://www.wikimetal.com.br/wp-content/uploads/2014/04/Simone-Simons.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: white;
+}
+
+.principal {
+  margin-bottom: 20px;
+}
+
+.principal__titulo {
+  text-transform: uppercase;
+  font-size:40px;
+  font-weight: 900;
+}
+
+.principal__sub {
+  font-weight: 300;
+  margin: 10px 0 16px 0;
+  font-size: 18px;
+  
+}
+
+
+
+/* --- FOOTER --- */
+
+.rodape {
+  background-color: #323534;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rodape__principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.rodape__principal > * {
+  margin: 16px 0;
+}
+
+.rodape__navegacao > li {
+  font-size: 14px;
+  margin: 8px;
+  
+
+}
+
+.rodape__navegacao a {
+  transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+  color: #C083B9;
+}
+
+.rodape__logo {
+  max-width: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape__cc {
+  width: 100%;
+  background-color: #292A2A;
+  font-size: 14px;
+  opacity: 0.5;
+  text-align: center;
+  padding: 10px;
+}
+
+
+/* --- Mobile First--- */
+
+@media screen and (min-width: 320px)  {
+/* NAV  --- NAV  --- NAV */
+
+.navegacao {
+  background-color: #674582;
+  box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+  padding: 24px;
+  z-index: 99; 
+  position: fixed;
+  width: 100%;
+}
+
+.navegacao__logo {
+  max-width: 200px;
+}
+
+.navegacao__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+/* define o tamanho da caixa */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+.navegacao__itens {
+  display: none;
+}
+
+.navegacao__menu-hamburguer img {
+  border-radius: 2px;
+}
+
+
+/* HEADER  --- HEADER  --- HEADER */
+
+.header {
+  min-height: 40px; 
+  height: 500px;
+  background: linear-gradient(rgba(255, 0, 255, 0.2),
+                              rgba(255, 0, 255, 0.2)),
+            url(http://www.wikimetal.com.br/wp-content/uploads/2014/04/Simone-Simons.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: white;
+}
+
+.principal {
+  margin-bottom: 20px;
+}
+
+.principal__titulo {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.principal__sub {
+  font-weight: 300;
+  margin: 10px 0 16px 0;
+  font-size: 18px;
+  
+}
+
+/* --- FOOTER --- */
+
+.rodape {
+  background-color: #323534;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rodape__principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.rodape__principal > * {
+  margin: 16px 0;
+}
+
+.rodape__navegacao > li {
+  font-size: 14px;
+  margin: 8px;
+}
+
+.rodape__navegacao a {
+  transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+  color: #C083B9;
+}
+
+.rodape__logo {
+  max-width: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape__cc {
+  width: 100%;
+  background-color: #292A2A;
+  font-size: 14px;
+  opacity: 0.5;
+  text-align: center;
+  padding: 10px;
+}
+}
+
+/*  --- TABLET --- --- TABLET --- */
+
+@media screen and (min-width: 768px) {
+
+  
+/*---MAIN----*/
+
+.caixa_grande {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  line-height: 34px;
+  color: #63458A;
+  
+}
+
+.caixa_grandona{
+    
+  display: flex;
+  
+  flex-direction: center;
+  
+  align-items: center;
+  
+  justify-content: center;
+  
+  width: 100%;
+  
+  }
+  
+.primeira_img{
+  
+  max-width: 200px;
+  
+  border-radius: 30px;
+  
+  }
+  
+.primeira_img img{
+  
+      max-width: 150px;
+      width: 200%;
+  }
+  
+.texto_ladobio{
+  
+  width: 50%;
+  
+  
+  }
+  
+.texto_ladobio2{
+  
+  width: 50%; 
+  }
+  
+.caixacomborda{
+  
+  border:#674582 1px solid;
+  
+  text-align: center;
+  
+  width: 70%;
+  
+  padding: 10px;
+  
+  box-sizing: border-box;
+  
+  font-size:20px;
+
+  margin: 20px auto ;
+  }
+
+.citacao{
+  color: #674582;
+  }
+
+.imagemdabio{
+  margin-right: 50px;
+  }
+
+
+.historia{
+    margin: auto;
+    width: 70%;
+    }
+
+.fotomeio {
+  width: 100%;
+  height: 100%;
+
+}
+
+.caixa_autora{
+  color: #63458a;
+  font-size: 15px;
+  width: 100%;
+  height: 100px;
+  background-color:#e4b7e5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5px;
+
+}
+
+.autora_img img{
+  max-width: 150px;
+  width: 100%;
+
+} 
+
+p {
+    
+  font-size: 16px;
+  text-align: center;
+  color: #63458A;
+  
+}
+
+    
+h1{ 
+  color: #ffffff; 
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  font-weight: 900;
+  text-align: center;
+  }
+          
+h2{
+    font-size: 25px;
+    text-align: center;
+    color: #63458A;   
+  }
+         
+h3{
+  font-size: 20px;
+  text-align: left;
+  color: #63458A;
+}
+      
+h4{
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+  height: 20px;
+
+}
+
+
+/* --- BOTAO --- */
+
+.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px ;
+  border-radius: 5px;
+  font-size: 14px;
+  
+}
+
+
+.btn_roxo {
+  color: white;
+  background-color: #C083B9;
+  display: block;
+  max-width: 200px;
+  text-align: center;
+  transition: all .5s;
+  margin: 0 auto;
+  
+ 
+}
+
+.btn_roxo:hover,
+.btn_roxo:focus {
+  transform: translateY(-06px);
+  box-shadow: 0 10px 10px rgba(0,0,0,.2);
+  background-color: rgb(192, 156, 188);
+}
+
+.btn_center {
+  margin:auto;
+ 
+}
+.botao{
+
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/* HEADER  --- HEADER  --- HEADER */
+
+.header {
+  min-height: 40px; 
+  height: 500px;
+  background: linear-gradient(rgba(255, 0, 255, 0.2),
+                              rgba(255, 0, 255, 0.2)),
+            url(http://www.wikimetal.com.br/wp-content/uploads/2014/04/Simone-Simons.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: white;
+}
+
+.principal {
+  margin-bottom: 20px;
+}
+
+.principal__titulo {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.principal__sub {
+  font-weight: 300;
+  margin: 10px 0 16px 0;
+  font-size: 18px;
+  
+}
+
+/* --- FOOTER --- */
+
+.rodape {
+  background-color: #323534;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rodape__principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.rodape__principal > * {
+  margin: 16px 0;
+}
+
+.rodape__navegacao > li {
+  font-size: 14px;
+  margin: 8px;
+  
+
+}
+
+.rodape__navegacao a {
+  transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+  color: #C083B9;
+}
+
+.rodape__logo {
+  max-width: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape__cc {
+  width: 100%;
+  background-color: #292A2A;
+  font-size: 14px;
+  opacity: 0.5;
+  text-align: center;
+  padding: 10px;
+}
+}
+
+/* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- --- DESKTOP---   */
+
+@media screen and (min-width: 1200px) {
+
+/*---MAIN----*/
+
+.caixa_grande {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  line-height: 34px;
+  color: #63458A;
+  
+}
+
+.caixa_grandona{
+    
+  display: flex;
+  
+  flex-direction: center;
+  
+  align-items: center;
+  
+  justify-content: center;
+  
+  width: 100%;
+  
+  }
+  
+.primeira_img{
+  
+  max-width: 200px;
+  
+  border-radius: 30px;
+  
+  }
+  
+.primeira_img img{
+  
+      max-width: 150px;
+      width: 200%;
+  }
+  
+.texto_ladobio{
+  
+  width: 50%;
+   
+  }
+  
+.texto_ladobio2{
+  
+  width: 50%; 
+  }
+  
+.caixacomborda{
+  
+  border:#674582 1px solid;
+  text-align: center;
+  width: 70%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size:20px;
+  margin: 20px auto;
+
+}
+
+.citacao{
+  color: #674582;
+  }
+
+.imagemdabio{
+  margin-right: 50px;
+  }
+
+
+.historia{
+    margin: auto;
+    width: 70%;
+    }
+
+.fotomeio {
+  width: 100%;
+  height: 100%;
+
+}
+
+.caixa_autora{
+  color: #63458a;
+  font-size: 15px;
+  width: 100%;
+  height: 100px;
+  background-color:#e4b7e5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5px;
+
+}
+
+.autora_img img{
+  max-width: 150px;
+  width: 100%;
+
+} 
+
+p {
+    
+  font-size: 16px;
+  text-align: center;
+  color: #63458A;  
+}
+     
+h1{ 
+  color: #ffffff; 
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  font-weight: 900;
+  text-align: center;
+  }
+          
+h2{
+    font-size: 25px;
+    text-align: center;
+    color: #63458A;   
+  }
+         
+h3{
+  font-size: 20px;
+  text-align: left;
+  color: #63458A;
+}
+      
+h4{
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+  height: 20px;
+
+}
+
+/* --- BOTAO --- */
+
+.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px ;
+  border-radius: 5px;
+  font-size: 14px;
+  
+}
+
+.btn_roxo {
+  color: white;
+  background-color: #C083B9;
+  display: block;
+  max-width: 200px;
+  text-align: center;
+  transition: all .5s;
+  margin: 0 auto;
+  
+}
+
+.btn_roxo:hover,
+.btn_roxo:focus {
+  transform: translateY(-06px);
+  box-shadow: 0 10px 10px rgba(0,0,0,.2);
+  background-color: rgb(192, 156, 188);
+}
+
+.btn_center {
+  margin:auto;
+ 
+}
+.botao{
+
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/* HEADER  --- HEADER  --- HEADER */
+
+.header {
+  min-height: 40px; 
+  height: 500px;
+  background: linear-gradient(rgba(255, 0, 255, 0.2),
+                              rgba(255, 0, 255, 0.2)),
+            url(http://www.wikimetal.com.br/wp-content/uploads/2014/04/Simone-Simons.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: white;
+}
+
+.principal {
+  margin-bottom: 20px;
+}
+
+.principal__titulo {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.principal__sub {
+  font-weight: 300;
+  margin: 10px 0 16px 0;
+  font-size: 18px;
+  
+}
+/* --- FOOTER --- */
+.rodape {
+  background-color: #323534;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rodape__principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.rodape__principal > * {
+  margin: 16px 0;
+}
+
+.rodape__navegacao > li {
+  font-size: 14px;
+  margin: 8px;
+  display: inline-block;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  
+
+}
+
+.rodape__navegacao a {
+  transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+  color: #C083B9;
+}
+
+.rodape__logo {
+  max-width: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape__cc {
+  width: 100%;
+  background-color: #292A2A;
+  font-size: 14px;
+  opacity: 0.5;
+  text-align: center;
+  padding: 10px;
+}
+
+}

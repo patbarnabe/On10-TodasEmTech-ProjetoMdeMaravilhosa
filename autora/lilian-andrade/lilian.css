@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.img-responsive {
+  width: 100%;
+}
+
+/* define o tamanho da caixa */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+
+/* --- Mobile First--- */
+
+/* NAV  --- NAV  --- NAV */
+
+.navegacao {
+    background-color: #674582;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+    padding: 24px;
+    z-index: 99; 
+    position: fixed;
+    width: 100%;
+  }
+  
+  .navegacao__logo {
+    max-width: 200px;
+  }
+  
+  .navegacao__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+  }
+  
+  /* define o tamanho da caixa */
+  .container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+  }
+  
+  .navegacao__itens {
+    display: none;
+  }
+  
+  .navegacao__menu-hamburguer img {
+    border-radius: 2px;
+  }
+
+  
+/* HEADER  --- HEADER  --- HEADER */
+
+.header {
+    min-height: 40px; 
+    height: 500px;
+    background: linear-gradient(rgba(255, 0, 255, 0.2),
+                                rgba(255, 0, 255, 0.2)),
+              url(../imagens/bg-banner-claro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: white;
+  }
+  
+  .principal {
+    margin-bottom: 20px;
+  }
+  
+  .principal__titulo {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 900;
+  }
+  
+  .principal__sub {
+    font-weight: 300;
+    margin: 10px 0 16px 0;
+    font-size: 18px;
+    
+  }
+
+  /* --- FOOTER --- */
+
+.rodape {
+    background-color: #323534;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .rodape__principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .rodape__principal > * {
+    margin: 16px 0;
+  }
+  
+  .rodape__navegacao > li {
+    font-size: 14px;
+    margin: 8px;
+  }
+  
+  .rodape__navegacao a {
+    transition: all .5s;
+  }
+  
+  .rodape__navegacao a:hover {
+    color: #C083B9;
+  }
+  
+  .rodape__logo {
+    max-width: 200px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .rodape__cc {
+    width: 100%;
+    background-color: #292A2A;
+    font-size: 14px;
+    opacity: 0.5;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+/*  --- TABLET --- --- TABLET --- */
+@media (min-width: 768px) {
+
+
+
+
+
+
+
+
+}
+
+
+
+/* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- --- DESKTOP---   */
+
+@media (min-width: 1200px) {
+
+
+
+
+
+
+
+}

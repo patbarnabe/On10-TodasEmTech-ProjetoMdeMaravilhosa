@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.img-responsive {
+  width: 100%;
+}
+
+/* define o tamanho da caixa */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+/* --- Mobile First--- */
+
+/* NAV  --- NAV  --- NAV */
+
+.navegacao {
+  background-color: #674582;
+  box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+  padding: 24px;
+  z-index: 99; 
+  position: fixed;
+  width: 100%;
+}
+
+.navegacao__logo {
+  max-width: 200px;
+}
+
+.navegacao__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+/* define o tamanho da caixa */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+.navegacao__itens {
+  display: none;
+}
+
+.navegacao__menu-hamburguer img {
+  border-radius: 2px;
+}
+
+/*titulo e descrição da maravilhosa*/
+
+
+
+.banner{
+  width: 100%;
+  padding-top: 90px;
+  display: table-cell;
+
+
+
+}
+
+.titulo{
+margin: 5px;
+font-size: 10px;
+color: blueviolet;
+text-align: center;
+  
+
+}
+
+.descricao{
+
+ 
+  font-size: 10px;
+  color: blueviolet;
+  max-width: 300px;
+  display: table-cell;
+  
+  
+}
+
+.perfilmarie{
+max-width: 160px;
+border-radius: 5px;
+margin-right: 10px;
+
+
+}
+.pagina-home-container{
+
+  display: flex; 
+  flex-flow: row wrap;
+  padding: 2rem;
+  justify-content: center;
+  width: 100%;
+
+
+}
+
+.frase-home-maravilhosa{
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+max-width: 500px;
+text-align: center;
+color: rgb(85, 5, 160);
+display: flex;
+
+
+}
+
+.borda-home-maravilhosa{
+display: flex;
+justify-content: center;
+border-color: rgb(186, 93, 248);
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 20px;
+  max-width: 400px;
+  
+  
+  
+}
+
+.relato{ 
+  margin-bottom: 20px;
+  color: blueviolet;
+  max-width: 550px;
+  display: flex;
+}
+.relato2{ 
+  color: white;
+  max-width: 550px;
+  display: flex;
+}
+
+.sua-historia{
+  margin-bottom: 15px;
+  color: rgb(86, 4, 161);
+  justify-content: center;
+  
+}
+
+.botao-ver-todas-elas{
+  padding: 15px;
+  background-color: blueviolet;
+  color: white;
+}
+
+.botom-nav-pages{
+  font-size: 13px;;
+}
+
+
+.divider{
+
+background-color: #674582;
+width: 40%;
+height: 2px;
+
+
+
+
+}
+
+.banner-autora2{
+  height: 290px;
+  width: 40%;
+}
