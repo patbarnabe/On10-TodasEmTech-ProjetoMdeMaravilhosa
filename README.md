@@ -7,7 +7,7 @@
 1. [Projeto](#-projeto)
 2. [Requisitos Obrigatórios](#-requisitos-obrigatórios)
 3. [Protótipo Figma](#-protótipo-figma)
-4. [Resultados](#%EF%B8%8F-resultados)
+4. [Resultados](#%EF%B8%8F-resultado)
 5. [Sobre a Desenvolvedora](#-sobre-a-desenvolvedora)
 
 ## 📚 Projeto
@@ -21,7 +21,7 @@ Escolher uma personalidade Maravilhosa e inspiradora para criar uma página de p
 ## 🎨 Protótipo Figma
 Seguir o layout no Figma [link](https://www.figma.com/file/CgnXgNdWjk4rxANWa5PCsu/MDM2021?node-id=0%3A1)
 
-## ✔️ Resultados
+## ✔️ Resultado
 <div style="display: flex" align="center">
   <img align="center" alt="gif-results" src="./maravilhosa/anneFrank/imagensAnne/gif-annefrank.gif"><br><br>
 </div>
