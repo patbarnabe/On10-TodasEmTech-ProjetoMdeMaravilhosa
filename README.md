@@ -4,7 +4,7 @@
 
 ## Índice
 
-1. [Projeto](#books-projeto)
+1. [Projeto](#-projeto)
 2. [Requisitos Obrigatórios](#dart-requisitos-obrigatórios)
 3. [Protótipo Figma](#art-protótipo-figma)
 4. [Resultados](#heavy_check_mark-protótipo-figma)
