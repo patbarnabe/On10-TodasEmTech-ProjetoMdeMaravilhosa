@@ -5,10 +5,10 @@
 ## Índice
 
 1. [Projeto](#-projeto)
-2. [Requisitos Obrigatórios](#dart-requisitos-obrigatórios)
-3. [Protótipo Figma](#art-protótipo-figma)
-4. [Resultados](#heavy_check_mark-protótipo-figma)
-5. [Sobre a Desenvolvedora](#woman_technologist-sobre-a-desenvolvedora)
+2. [Requisitos Obrigatórios](#-requisitos-obrigatórios)
+3. [Protótipo Figma](#-protótipo-figma)
+4. [Resultados](#%EF%B8%8F-resultados)
+5. [Sobre a Desenvolvedora](#-sobre-a-desenvolvedora)
 
 ## 📚 Projeto
 Escolher uma personalidade Maravilhosa e inspiradora para criar uma página de perfil em sua homenagem.
