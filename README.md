@@ -7,7 +7,7 @@
 1. [Projeto](#-projeto)
 2. [Requisitos Obrigatórios](#-requisitos-obrigatórios)
 3. [Protótipo Figma](#-protótipo-figma)
-4. [Resultados](#%EF%B8%8F-resultado)
+4. [Resultado](#%EF%B8%8F-resultado)
 5. [Sobre a Desenvolvedora](#-sobre-a-desenvolvedora)
 
 ## 📚 Projeto
