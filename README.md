@@ -22,6 +22,9 @@ Escolher uma personalidade Maravilhosa e inspiradora para criar uma página de p
 Seguir o layout no Figma [link](https://www.figma.com/file/CgnXgNdWjk4rxANWa5PCsu/MDM2021?node-id=0%3A1)
 
 ## ✔️ Resultados
+<div style="display: flex" align="center">
+  <img align="center" alt="gif-results" height="600" width="800" src="./marabilhosa/anneFrank/imagensAnne/gir-annefrank.gif"><br><br>
+</div>
 
 ## 👩‍💻 Sobre a Desenvolvedora
 ### Patrícia Barnabé
