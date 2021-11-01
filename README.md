@@ -1,6 +1,6 @@
 <h1 align="center">Reprograma 💜 Todas Em Tech - Projeto M de Maravilhosa</h1>
 
-<p align="center">10ª Turma | Front-end | abril 2021 | Semana 5 | Projeto 1 - M de Maravilhosa</p>
+<p align="center">10ª Turma | Front-end | abril 2021 </p>
 
 ## Índice
 
